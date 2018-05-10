@@ -1,0 +1,30 @@
+{
+  "name": "cell-api-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "configure": "./bin/configdb.sh",
+    "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ed-ram/cell-api-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ed-ram/cell-api-backend/issues"
+  },
+  "homepage": "https://github.com/ed-ram/cell-api-backend#readme",
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "pg": "^7.4.1"
+  }
+}
